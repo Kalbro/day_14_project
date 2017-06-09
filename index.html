@@ -10,28 +10,28 @@
     <div class="calc-container">
       <form name= "calculator">
       <div class="number-container">
-          <div class= "button-clear" id="clear-button">C</div>
-          <div class= "input-screen" id = "input-screen"></div>
+          <input type="button" id= "clear" value="C" onClick="runClear(this)">
+          <input type="text" value= "" id="input-box" disabled>
 
-          <div class="button" id="number7"> 7  </div>
-          <div class="button" id="number8"> 8 </div>
-          <div class="button" id="number9"> 9  </div>
-          <div class="button" id="divide"> / </div>
+          <input type="button" value= "7" class= 'number' onclick="run(this)" />
+          <input type="button" value= "8" class= 'number' onclick="run(this)" />
+          <input type="button" value= "9" onclick="run(this)" />
+          <input type="button" value= "/" onclick="run(this)" />
 
-          <div class="button" id="number4"> 4 </div>
-          <div class="button" id="number5"> 5 </div>
-          <div class="button" id="number6"> 6  </div>
-          <div class="button" id="multiply">  x  </div>
+          <input type="button" value=" 4 " onclick="run(this)" />
+          <input type="button" value=" 5 " onclick="run(this)" />
+          <input type="button" value=" 6 " onclick="run(this)" />
+          <input type="button" value=" x " onclick="run(this)" />
 
-          <div class="button" id="number7"> 1 </div>
-          <div class="button" id="number8"> 2 </div>
-          <div class="button" id="number9"> 3 </div>
-          <div class="button" id="sub"> - </div>
+          <input type="button" value=" 1 " onclick="run(this)" />
+          <input type="button" value=" 2 " onclick="run(this)" />
+          <input type="button" value=" 3 " onclick="run(this)" />
+          <input type="button" value=" - " onclick="run(this)" />
 
-          <div class="button" id="number0" > 0  </div>
-          <div class="button" id="period" > .  </div>
-          <div class="button" id="equal" > = </div>
-          <div class="button" id="plus"> + </div>
+          <input type="button" value=" 0 " onclick="run(this)" />
+          <input type="button" value=" . " onclick="run(this)" />
+          <input type="button" value=" = " onclick="runEqual(this)" />
+          <input type="button" value=" + " onclick="run(this)" />
 
       </form>
       </div>
