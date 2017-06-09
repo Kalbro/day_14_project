@@ -1,0 +1,67 @@
+form{
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+
+}
+.calc-container{
+  background-color: #64b255;
+  width:325px;
+  height:400px;
+
+}
+.number-container{
+display:flex;
+flex-wrap: wrap;
+width:100%;
+}
+
+.button{
+  width: calc(25% - 2px);
+  height:calc(80px - 2px);
+  border: 1px solid #9ed096;
+}
+
+.input-screen{
+  width:calc(75% - 2px);
+  border: 1px solid #9ed096;
+
+}
+
+#divide, #multiply, #sub, #plus{
+  background-color: #82c276;
+  color:#4d7342;
+}
+
+
+.button-clear{
+  width: calc(25% - 2px);
+  height:calc(80px - 2px);
+  border: 1px solid #9ed096;
+
+}
+
+.button-clear:hover{
+  background-color: #9ed096;
+}
+
+#equal:hover{
+  background-color: #82c276;
+}
+
+#divide:hover{
+  color: white;
+}
+
+#sub:hover{
+  color: white;
+}
+
+#plus:hover{
+  color: white;
+}
+
+#multiply:hover{
+  color: white;
+}
