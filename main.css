@@ -1,67 +1,93 @@
-form{
-  font-family: arial, sans-serif;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
 
-}
 .calc-container{
   background-color: #64b255;
   width:325px;
   height:400px;
+  cursor: pointer;
+  border: bold solid white;
+cursor: pointer;
 
 }
+
 .number-container{
 display:flex;
 flex-wrap: wrap;
 width:100%;
+justify-content:space-between;
+
 }
 
-.button{
-  width: calc(25% - 2px);
-  height:calc(80px - 2px);
+.number{
+  width: 25%;
+  height:80px;
   border: 1px solid #9ed096;
+  background-color: #64b255;
+  color: white;
+  font-size: 30px;
 }
 
-.input-screen{
-  width:calc(75% - 2px);
+.equal{
+  width: 25%;
+  height:80px;
   border: 1px solid #9ed096;
+  background-color: #64b255;
+  color: white;
+  font-size: 30px;
+}
+
+#input-box{
+  width:74%;
+  height:80px;
+  border: 1px solid #9ed096;
+  background-color: #64b255;
+  padding-left: 2px;
+  color: white;
+  font-size: 30px;
 
 }
 
-#divide, #multiply, #sub, #plus{
+
+.divide, .multiply, .sub, .add{
   background-color: #82c276;
   color:#4d7342;
-}
-
-
-.button-clear{
-  width: calc(25% - 2px);
-  height:calc(80px - 2px);
+  width: 25%;
+  height:80px;
   border: 1px solid #9ed096;
+  font-size: 30px;
 
 }
 
-.button-clear:hover{
+#clear{
+  width: 24%;
+  height:84px;
+  border: 1px solid #9ed096;
+  background-color: #64b255;
+  color: white;
+  font-size: 30px;
+
+
+}
+
+#clear:hover{
   background-color: #9ed096;
 }
 
-#equal:hover{
+.equal:hover{
   background-color: #82c276;
 }
 
-#divide:hover{
+.divide:hover{
   color: white;
 }
 
-#sub:hover{
+.sub:hover{
   color: white;
 }
 
-#plus:hover{
+.add:hover{
   color: white;
 }
 
-#multiply:hover{
+.multiply:hover{
   color: white;
 }
