@@ -1,7 +1,7 @@
 let holder = "";
 function run (x){
   holder = holder.concat(x.value);
-  setValue(holder)
+  setValue(holder);
   console.log(holder);
 }
 function runClear(){
@@ -9,10 +9,20 @@ function runClear(){
   setValue(holder);
   console.log(holder);
 }
+
 function runEqual(){
   var total = eval(holder);
-  setValue(total)
+  setValue(total);
+
 }
+
+function runMult(){
+  holder = holder.concat("*");
+  setValue(holder);
+  console.log(holder);
+  
+}
+
  function setValue(setValue){
    var newValue = document.getElementById('input-box');
    newValue.value = setValue;

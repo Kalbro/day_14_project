@@ -4,7 +4,6 @@
   width:325px;
   height:400px;
   cursor: pointer;
-  border: bold solid white;
 cursor: pointer;
 
 }
@@ -14,53 +13,57 @@ display:flex;
 flex-wrap: wrap;
 width:100%;
 justify-content:space-between;
+background-color:  #9ed096;
+border-style: none;
+
 
 }
 
 .number{
   width: 25%;
   height:80px;
-  border: 1px solid #9ed096;
   background-color: #64b255;
   color: white;
   font-size: 30px;
+  border-style: none;
 }
 
 .equal{
   width: 25%;
   height:80px;
-  border: 1px solid #9ed096;
   background-color: #64b255;
   color: white;
   font-size: 30px;
+  border-style: none;
 }
 
 #input-box{
-  width:74%;
-  height:80px;
-  border: 1px solid #9ed096;
+  width: calc(75% - 5px);
   background-color: #64b255;
-  padding-left: 2px;
   color: white;
   font-size: 30px;
-
+  border-style: none;
 }
 
 
 .divide, .multiply, .sub, .add{
   background-color: #82c276;
   color:#4d7342;
-  width: 25%;
+  width: calc(24% - 3px);
   height:80px;
-  border: 1px solid #9ed096;
   font-size: 30px;
+  border-style: none;
 
 }
 
+div > input{
+  margin: .5px;
+}
+
 #clear{
-  width: 24%;
+  width:calc(26% - 3px);
   height:84px;
-  border: 1px solid #9ed096;
+  border-style: none;
   background-color: #64b255;
   color: white;
   font-size: 30px;
